@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Trafic scotland RSS viewer  Code by Matthew Metcalfe S1103282 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15sp"
+        android:text="@string/PlannedRoadWorks"
+        android:textColor="@color/blacky"
+        android:textSize="35sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ListView
+            android:id="@+id/listView2"
+            android:layout_width="206dp"
+            android:layout_height="198dp"
+            android:layout_weight="0.68"
+            android:cacheColorHint="#00000000" >
+        </ListView>
+
+        <LinearLayout
+            android:layout_width="241dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <DatePicker
+                android:id="@+id/datePicker1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:calendarViewShown="false"
+                android:scaleX="0.8"
+                android:scaleY="0.8" />
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="242dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.29"
+                android:onClick="onDateSelectedButtonClick"
+                android:text="@string/searchdate" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

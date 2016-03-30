@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Trafic scotland RSS viewer  Code by Matthew Metcalfe S1103282  --> 
+<resources>
+    <string name="hello">Hello World, HttpTestActivity!</string>
+    <string name="app_name">Matthew Metcalfe Rss Reader S1103282 </string>
+    <string name="RoadWorks">Road Works</string>
+    <string name="PlannedRoadWorks">Planned Road Works</string>
+    <string name="CurrentIncidents">Current Incidents</string>
+    <string name="title">Traffic Rss Reader</string>
+    <string name="searchdate">Search</string>
+    <string name="today">Todays roadworks</string>
+    <string name="all">All roadworks</string>
+    <string name="refresh">Refresh</string>
+</resources>

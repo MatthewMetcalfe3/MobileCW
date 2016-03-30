@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Trafic scotland RSS viewer  Code by Matthew Metcalfe S1103282  --> 
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="org.me.myandroidstuff"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <uses-sdk android:minSdkVersion="7" />
+ 
+    <application android:icon="@drawable/tslogo" android:label="@string/app_name">
+  
+        <activity android:name="splash"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name= ".main"/>
+        <activity android:name=".CurrentIncidents" />
+        <activity android:name=".CurrentRoadworks" />
+        <activity android:name=".PlannedRoadworks" />
+ 
+    </application>
+    <uses-permission android:name="android.permission.INTERNET"/>
+</manifest>

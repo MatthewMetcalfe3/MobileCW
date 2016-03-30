@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Trafic scotland RSS viewer  Code by Matthew Metcalfe S1103282  --> 
+<resources>
+   <color name="redy">#f00</color>
+   <color name="translucent_red">#80ff0000</color>
+   <color name="bluey">#96CDCD</color>
+   <color name="grayy">#d3d3d3</color>
+   <color name="greeny">#66b266</color>
+   <color name="orangey">#ffa500</color>
+   <color name="transp">#80000000 </color>
+   <color name="blacky">#171616</color>
+</resources>
